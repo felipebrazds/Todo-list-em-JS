@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+body {
+  background-color: #3588bc;
+}
+
+header {
+  text-align: center;
+  padding: 25px 0 25px 0;
+  background-color: #092a3f;
+  margin-bottom: 25px;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  color: azure;
+}
+
+header h1 span {
+  background-color: #efd81d;
+  padding: 15px 3px 0px 15px;
+  color: black;
+}
+
+main {
+  padding: 0px 30px 25px 30px;
+}
+
+main h2 {
+  color: #092a3f;
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+main ul {
+  background-color: #3694ce;
+  border-radius: 8px;
+  padding: 20px 30px;
+  box-shadow: 5px 4px 20px rgba(41, 41, 41, 0.2);
+}
+
+main ul li {
+  list-style: none;
+  background-color: rgba(255, 255, 255, 0.247);
+  padding: 5px 10px;
+  margin: 5px 0px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+main ul li #delete {
+  background-color: #17a14c;
+  color: azure;
+  text-align: center;
+  align-self: center;
+  text-decoration: none;
+  padding: 1px 8px;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+
+main #app #form {
+  text-align: center;
+  margin-top: 25px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 10px;
+}
+
+main #app #form input {
+  padding: 5px 5px;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 2px azure;
+  color: #333;
+  transition: 0.5s;
+}
+
+main #app #form input:focus {
+  outline-width: 0;
+  background-color: rgba(240, 255, 255, 0.4);
+}
+
+main #app #form input::-ms-input-placeholder,
+main #app #form input::placeholder {
+  color: azure;
+  opacity: 1;
+}
+
+main #app #form button {
+  background-color: transparent;
+  color: azure;
+  border: solid 2px azure;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+main #app #form button:hover {
+  background-color: #17a14c;
+  color: azure;
+  border: solid 1px #17a14c;
+  border-radius: 5px;
+  box-shadow: 3px 2px 4px rgba(0, 0, 0, 0.199);
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background-color: #092a3f;
+  color: azure;
+  padding: 30px;
+}
+
+footer #credits {
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+footer a {
+  text-decoration: none;
+  margin-left: 3px;
+  color: azure;
+  transition: 0.3s;
+  padding: 3px 5px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+footer a:hover {
+  background-color: #17a14c;
+  border: 1px solid #17a14c;
+}
+
+footer #year {
+  font-size: 10px;
+}
